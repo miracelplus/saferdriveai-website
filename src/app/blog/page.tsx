@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog Page | SaferDrive AI",
-  description: "Advancing Autonomous Vehicle Safety with AI-centric Simulation Tools",
+  description: "Advancing AV Safety with AI-centric Simulation Tools",
   // other metadata
 };
 
