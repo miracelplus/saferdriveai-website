@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   description: "Paving the Road for Safer and Better Autonomous Vehicles",
   // other metadata
 };
-};
 
 const BlogDetailsPage = () => {
   return (
