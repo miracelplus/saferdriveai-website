@@ -22,7 +22,7 @@ const Hero = () => {
                     href="/about"
                     className="inline-block rounded-sm bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
                   >
-                  Explore our solutions
+                    Explore our solutions
                   </Link>
                 </div>
               </div>
@@ -37,7 +37,7 @@ const Hero = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle
+            {/* <circle
               cx="277"
               cy="63"
               r="225"
@@ -85,7 +85,7 @@ const Hero = () => {
               r="133.362"
               transform="rotate(133.319 191.659 302.659)"
               fill="url(#paint6_linear_25:217)"
-            />
+            /> */}
             <defs>
               <linearGradient
                 id="paint0_linear_25:217"
@@ -191,17 +191,17 @@ const Hero = () => {
               d="M-98.1618 65.0889C-68.1416 60.0601 4.73364 60.4882 56.0734 102.431C120.248 154.86 139.905 161.419 177.137 166.956C214.37 172.493 255.575 186.165 281.856 215.481"
               stroke="url(#paint3_linear_25:218)"
             />
-            <circle
+            {/* <circle
               opacity="0.8"
               cx="214.505"
               cy="60.5054"
               r="49.7205"
               transform="rotate(-13.421 214.505 60.5054)"
               stroke="url(#paint4_linear_25:218)"
-            />
-            <circle cx="220" cy="63" r="43" fill="url(#paint5_radial_25:218)" />
+            /> */}
+            {/* <circle cx="220" cy="63" r="43" fill="url(#paint5_radial_25:218)" /> */}
             <defs>
-              <linearGradient
+              {/* <linearGradient
                 id="paint0_linear_25:218"
                 x1="184.389"
                 y1="69.2405"
@@ -211,8 +211,8 @@ const Hero = () => {
               >
                 <stop stopColor="#4A6CF7" stopOpacity="0" />
                 <stop offset="1" stopColor="#4A6CF7" />
-              </linearGradient>
-              <linearGradient
+              </linearGradient> */}
+              {/* <linearGradient
                 id="paint1_linear_25:218"
                 x1="156.389"
                 y1="69.2405"
@@ -222,8 +222,8 @@ const Hero = () => {
               >
                 <stop stopColor="#4A6CF7" stopOpacity="0" />
                 <stop offset="1" stopColor="#4A6CF7" />
-              </linearGradient>
-              <linearGradient
+              </linearGradient> */}
+              {/* <linearGradient
                 id="paint2_linear_25:218"
                 x1="125.389"
                 y1="69.2405"
@@ -233,8 +233,8 @@ const Hero = () => {
               >
                 <stop stopColor="#4A6CF7" stopOpacity="0" />
                 <stop offset="1" stopColor="#4A6CF7" />
-              </linearGradient>
-              <linearGradient
+              </linearGradient> */}
+              {/* <linearGradient
                 id="paint3_linear_25:218"
                 x1="93.8507"
                 y1="67.2674"
@@ -266,7 +266,7 @@ const Hero = () => {
               >
                 <stop offset="0.145833" stopColor="white" stopOpacity="0" />
                 <stop offset="1" stopColor="white" stopOpacity="0.08" />
-              </radialGradient>
+              </radialGradient> */}
             </defs>
           </svg>
         </div>
