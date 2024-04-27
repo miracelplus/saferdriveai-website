@@ -6,6 +6,8 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "node_modules/react-modal-video/css/modal-video.css";
 import "../styles/index.css";
+import { useEffect } from "react";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +16,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, []);
+
   return (
     <html suppressHydrationWarning lang="en">
       {/*
