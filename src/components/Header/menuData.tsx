@@ -25,12 +25,12 @@ const menuData: Menu[] = [
     path: "/research",
     newTab: false,
   },
-  {
-    id: 3,
-    title: "Support",
-    path: "/contact",
-    newTab: false,
-  },
+  // {
+  //   id: 3,
+  //   title: "Support",
+  //   path: "/contact",
+  //   newTab: false,
+  // },
 
   // {
   //   id: 4,

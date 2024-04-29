@@ -10,6 +10,7 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import ResearchSection from "@/components/Research/ResearchSection";
 
 export const metadata: Metadata = {
   title: "SaferDrive AI",
@@ -23,14 +24,15 @@ export default function Home() {
       <ScrollUp />
       <Hero />
       <Features />
-      <Video />
-      <Brands />
-      <AboutSectionOne />
-      <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
+      {/* <Video /> */}
+      {/* <Brands /> */}
+      {/* <AboutSectionOne /> */}
+      {/* <AboutSectionTwo /> */}
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
       <Blog />
-      <Contact />
+      <ResearchSection />
+      {/* <Contact /> */}
     </>
   );
 }
