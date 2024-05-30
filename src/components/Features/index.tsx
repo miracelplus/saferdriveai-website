@@ -8,8 +8,8 @@ const Features = () => {
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="TeraSim: Simulated City for AV Safety Evaluation"
-            paragraph="Realistic, scalable, and efficient AV safety performance evalation, powered by Generative AI and optimized for large-scale real-world AV deployment."
+            title="What We Offer"
+            paragraph=""
             center
           />
 
