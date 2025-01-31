@@ -1,20 +1,14 @@
-import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Blog from "@/components/Blog";
-import Brands from "@/components/Brands";
-import ScrollUp from "@/components/Common/ScrollUp";
-import Contact from "@/components/Contact";
-import Features from "@/components/Features";
-import Hero from "@/components/Hero";
-import Pricing from "@/components/Pricing";
-import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { Metadata } from "next";
-import ResearchSection from "@/components/Research/ResearchSection";
+import Hero from "@/components/Hero";
+import ScrollUp from "@/components/Common/ScrollUp";
+import Standards from "@/components/Standards";
+import Integration from "@/components/Integration";
+import TrustedBy from "@/components/TrustedBy";
+import Team from "@/components/Team";
 
 export const metadata: Metadata = {
-  title: "SaferDrive AI",
-  description: "Generative AI powered simulation toolchain for safer Autonomous Vehicles",
+  title: "TeraSim | Open-Source Simulation for Safer Autonomous Driving",
+  description: "TeraSim is an open-source simulation platform for autonomous vehicle testing, offering high-fidelity environment generation and comprehensive safety validation tools.",
   // other metadata
 };
 
@@ -23,16 +17,10 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      {/* <Video /> */}
-      {/* <Brands /> */}
-      <AboutSectionTwo />
-      <AboutSectionOne />
-      <Features />
-      {/* <Testimonials /> */}
-      {/* <Pricing /> */}
-      {/* <Blog /> */}
-      {/* <ResearchSection /> */}
-      {/* <Contact /> */}
+      <Standards />
+      <Integration />
+      <TrustedBy />
+      <Team />
     </>
   );
 }
