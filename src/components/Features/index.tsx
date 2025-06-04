@@ -5,10 +5,10 @@ import featuresData from "./featuresData";
 const Features = () => {
   return (
     <>
-      <section id="features" className="py-16 md:py-20 lg:py-28">
+      <section id="product" className="py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="What We Offer"
+            title="Modular, Scalable Simulation — Built to Expose Real-World Risk"
             paragraph=""
             center
           />
