@@ -1,29 +1,23 @@
 import { Metadata } from "next";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import SingleFeature from "@/components/Features/SingleFeature";
-import featuresData from "@/components/Features/featuresData";
+import ProductFlow from "@/components/Product/ProductFlow";
+import ProductModules from "@/components/Product/ProductModules";
 
 export const metadata: Metadata = {
-  title: "Product | SaferDrive AI",
-  description: "Detailed modular architecture and simulation pipeline",
+  title: "Product - TeraSim | SaferDrive AI",
+  description: "Modular, scalable simulation — built to expose real-world risk. Detailed TeraSim architecture and simulation pipeline.",
+  keywords: "TeraSim, simulation pipeline, modular architecture, AV testing, generative AI simulation",
 };
 
 const ProductPage = () => {
   return (
     <>
       <Breadcrumb
-        pageName="Product"
-        description="Modular, scalable simulation — built to expose real-world risk."
+        pageName="TeraSim Product"
+        description="Modular, Scalable Simulation — Built to Expose Real-World Risk"
       />
-      <section className="py-16 md:py-20 lg:py-28">
-        <div className="container">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3">
-            {featuresData.map((feature) => (
-              <SingleFeature key={feature.id} feature={feature} />
-            ))}
-          </div>
-        </div>
-      </section>
+      <ProductFlow />
+      <ProductModules />
     </>
   );
 };
