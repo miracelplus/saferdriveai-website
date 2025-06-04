@@ -1,11 +1,10 @@
 import { Metadata } from "next";
-import Breadcrumb from "@/components/Common/Breadcrumb";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Open Source & Trust | SaferDrive AI",
-  description: "TeraSim is the first AV testing tool featured on the cover of Nature. Built with Mcity and used by leading OEMs.",
-  keywords: "TeraSim, open source, Nature, Mcity, UMTRI, AV testing, research",
+  description: "TeraSim builds upon groundbreaking research from University of Michigan that was featured on Nature's cover. Developed with Mcity and adopted by leading OEMs.",
+  keywords: "TeraSim, open source, Nature, Mcity, UMTRI, University of Michigan, AV testing, research",
 };
 
 const TrustPage = () => {
@@ -41,37 +40,80 @@ const TrustPage = () => {
 
   return (
     <>
-      <Breadcrumb
-        pageName="Open Source & Trust"
-        description="Trusted by Researchers. Open for Developers."
-      />
-      
-      <section className="py-16 md:py-20 lg:py-28">
-        <div className="container">
-          {/* Header Quote */}
-          <div className="mx-auto max-w-4xl text-center mb-16">
-            <div className="rounded-xl bg-gradient-to-r from-blue-50 to-purple-50 p-8 dark:from-blue-900/20 dark:to-purple-900/20">
-              <blockquote className="text-lg font-medium text-black dark:text-white sm:text-xl">
-                "TeraSim is the first AV testing tool featured on the <strong>cover of Nature</strong>. Built with Mcity and used by leading OEMs."
-              </blockquote>
+      <section className="relative z-10 overflow-hidden bg-slate-50 dark:bg-slate-950 pt-[120px] pb-16 md:pt-[150px] md:pb-[120px] xl:pt-[180px] xl:pb-[160px]">
+        {/* Tech grid background */}
+        <div className="absolute inset-0 bg-tech-grid bg-tech-grid opacity-20 dark:opacity-10"></div>
+        
+        <div className="container relative">
+          <div className="mx-auto max-w-6xl text-center">
+            {/* Main Hero Section */}
+            <h1 className="mb-8 text-5xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl lg:text-8xl">
+              TeraSim builds upon
+              <span className="block bg-gradient-to-r from-primary-600 to-accent-500 bg-clip-text text-transparent">
+                groundbreaking research
+              </span>
+            </h1>
+            
+            <p className="mb-12 text-2xl leading-relaxed text-slate-700 dark:text-slate-200 font-semibold max-w-5xl mx-auto sm:text-3xl md:text-3xl lg:text-4xl">
+              Featured on Nature's cover. Developed with Mcity and adopted by leading OEMs for real-world AV testing.
+            </p>
+
+            {/* Research Highlights */}
+            <div className="mb-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
+                <div className="text-6xl mb-4">🏛️</div>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">University of Michigan</h3>
+                <p className="text-lg text-slate-600 dark:text-slate-300">World-class research institution</p>
+              </div>
+              <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
+                <div className="text-6xl mb-4">🔬</div>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Nature Cover</h3>
+                <p className="text-lg text-slate-600 dark:text-slate-300">Featured research publication</p>
+              </div>
+              <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
+                <div className="text-6xl mb-4">🚗</div>
+                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Leading OEMs</h3>
+                <p className="text-lg text-slate-600 dark:text-slate-300">Real-world adoption</p>
+              </div>
             </div>
           </div>
+        </div>
 
-          {/* Trust Cards */}
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        {/* Modern gradient overlay */}
+        <div className="absolute top-0 right-0 -translate-y-12 translate-x-12 w-96 h-96 bg-gradient-to-br from-primary-200/20 to-accent-200/20 rounded-full blur-3xl dark:from-primary-900/20 dark:to-accent-900/20"></div>
+        <div className="absolute bottom-0 left-0 translate-y-12 -translate-x-12 w-96 h-96 bg-gradient-to-tr from-accent-200/20 to-primary-200/20 rounded-full blur-3xl dark:from-accent-900/20 dark:to-primary-900/20"></div>
+      </section>
+      
+      <section className="py-20 md:py-24 lg:py-32 bg-white dark:bg-slate-900">
+        <div className="container">
+          {/* Access Section */}
+          <div className="mx-auto max-w-4xl text-center mb-20">
+            <h2 className="mb-8 text-4xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-5xl lg:text-6xl">
+              Open for 
+              <span className="block bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
+                Everyone
+              </span>
+            </h2>
+            <p className="text-2xl leading-relaxed text-slate-700 dark:text-slate-200 font-semibold max-w-3xl mx-auto">
+              Access our research, code, and platform — built for transparency and collaboration
+            </p>
+          </div>
+
+          {/* Trust Cards - Larger */}
+          <div className="grid grid-cols-1 gap-12 md:grid-cols-3 max-w-6xl mx-auto">
             {trustCards.map((card) => (
               <div
                 key={card.id}
-                className="rounded-xl bg-white p-8 shadow-one transition-all duration-300 hover:shadow-two dark:bg-dark dark:shadow-three dark:hover:shadow-gray-dark"
+                className="rounded-2xl bg-white p-12 shadow-card transition-all duration-300 hover:shadow-card-hover hover:scale-105 dark:bg-slate-800 border border-slate-200 dark:border-slate-700"
               >
-                <div className="mb-6 text-center">
-                  <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-primary/10 text-5xl">
+                <div className="mb-8 text-center">
+                  <div className="mx-auto mb-6 flex h-28 w-28 items-center justify-center rounded-2xl bg-gradient-to-br from-primary-100 to-accent-100 dark:from-primary-900/30 dark:to-accent-900/30 text-7xl">
                     {card.icon}
                   </div>
-                  <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl">
+                  <h3 className="mb-6 text-3xl font-bold text-slate-900 dark:text-slate-50">
                     {card.title}
                   </h3>
-                  <p className="mb-6 text-base leading-relaxed text-body-color dark:text-body-color-dark">
+                  <p className="mb-8 text-xl leading-relaxed text-slate-600 dark:text-slate-300 font-medium">
                     {card.description}
                   </p>
                 </div>
@@ -81,43 +123,18 @@ const TrustPage = () => {
                     href={card.link}
                     target={card.external ? "_blank" : "_self"}
                     rel={card.external ? "noopener noreferrer" : ""}
-                    className="inline-block rounded-lg bg-primary px-6 py-3 text-base font-semibold text-white transition-all duration-300 hover:bg-primary/90 hover:shadow-lg"
+                    className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-primary-700 hover:shadow-glow focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-slate-900"
                   >
                     {card.linkText}
                     {card.external && (
-                      <span className="ml-2">↗</span>
+                      <svg className="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
                     )}
                   </Link>
                 </div>
               </div>
             ))}
-          </div>
-
-          {/* Additional Info */}
-          <div className="mt-16 text-center">
-            <div className="mx-auto max-w-2xl">
-              <h3 className="mb-6 text-2xl font-bold text-black dark:text-white">
-                Research Partnerships
-              </h3>
-              <p className="mb-8 text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
-                TeraSim is developed in collaboration with world-class research institutions and industry partners, ensuring scientific rigor and practical applicability.
-              </p>
-              
-              <div className="flex flex-wrap items-center justify-center gap-8">
-                <div className="text-center">
-                  <div className="mb-2 text-2xl font-bold text-primary">🏛️</div>
-                  <span className="text-sm font-semibold text-black dark:text-white">Mcity</span>
-                </div>
-                <div className="text-center">
-                  <div className="mb-2 text-2xl font-bold text-primary">🎓</div>
-                  <span className="text-sm font-semibold text-black dark:text-white">UMTRI</span>
-                </div>
-                <div className="text-center">
-                  <div className="mb-2 text-2xl font-bold text-primary">🔬</div>
-                  <span className="text-sm font-semibold text-black dark:text-white">Nature Featured</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

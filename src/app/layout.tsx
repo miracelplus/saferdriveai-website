@@ -33,7 +33,7 @@ export default function RootLayout({
       */}
       <head />
 
-      <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+      <body className={`bg-slate-50 dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${inter.className}`}>
         <Providers>
           <Header />
           {children}

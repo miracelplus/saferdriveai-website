@@ -10,7 +10,8 @@ const ProductModules = () => {
         "OpenDrive & Lanelet2 support",
         "CARLA & Omniverse integration",
         "3D scene rendering"
-      ]
+      ],
+      gradient: "from-green-500 to-emerald-500"
     },
     {
       id: 2,
@@ -22,7 +23,8 @@ const ProductModules = () => {
         "Pedestrian & cyclist simulation",
         "Weather & congestion modeling",
         "Road closure scenarios"
-      ]
+      ],
+      gradient: "from-yellow-500 to-orange-500"
     },
     {
       id: 3,
@@ -34,7 +36,8 @@ const ProductModules = () => {
         "Natural language prompts",
         "Collision type control",
         "Responsibility modeling"
-      ]
+      ],
+      gradient: "from-red-500 to-pink-500"
     },
     {
       id: 4,
@@ -46,7 +49,8 @@ const ProductModules = () => {
         "Realistic lighting & occlusion",
         "Custom FOV configuration",
         "Multi-sensor support"
-      ]
+      ],
+      gradient: "from-purple-500 to-violet-500"
     },
     {
       id: 5,
@@ -58,19 +62,27 @@ const ProductModules = () => {
         "CARLA & DRIVE Sim support",
         "Closed-loop testing",
         "Real-time feedback"
-      ]
+      ],
+      gradient: "from-blue-500 to-cyan-500"
     }
   ];
 
   return (
-    <section className="py-16 md:py-20 lg:py-28 bg-gray-light dark:bg-bg-color-dark">
+    <section className="py-20 md:py-24 lg:py-32 bg-white dark:bg-slate-950">
       <div className="container">
         <div className="mx-auto max-w-4xl text-center mb-16">
-          <h2 className="mb-4 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
-            Modular Architecture
+          <div className="mb-4 inline-flex items-center rounded-full bg-accent-50 dark:bg-accent-900/20 px-4 py-2">
+            <span className="mr-2 text-lg">🧩</span>
+            <span className="text-sm font-semibold text-accent-600 dark:text-accent-400">MODULAR ARCHITECTURE</span>
+          </div>
+          <h2 className="mb-6 text-3xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-4xl lg:text-5xl">
+            Powerful
+            <span className="block bg-gradient-to-r from-primary-500 to-accent-500 bg-clip-text text-transparent">
+              Building Blocks
+            </span>
           </h2>
-          <p className="text-base leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg">
-            Each module is designed to work independently or as part of the complete pipeline
+          <p className="text-lg leading-relaxed text-slate-600 dark:text-slate-300 font-medium max-w-3xl mx-auto">
+            Each module is designed to work independently or as part of the complete pipeline. Mix and match components to suit your specific testing needs.
           </p>
         </div>
         
@@ -78,35 +90,77 @@ const ProductModules = () => {
           {modules.map((module) => (
             <div
               key={module.id}
-              className="rounded-xl bg-white p-8 shadow-one dark:bg-dark dark:shadow-three"
+              className="group relative overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 transition-all duration-300 hover:shadow-card-hover"
             >
-              <div className="mb-6 flex items-center">
-                <div className="mr-4 flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 text-4xl">
-                  {module.icon}
+              {/* Module Header */}
+              <div className="relative p-8 pb-6">
+                <div className="flex items-start space-x-4">
+                  <div className={`flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br ${module.gradient} text-4xl text-white shadow-lg`}>
+                    {module.icon}
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 sm:text-2xl mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                      {module.title}
+                    </h3>
+                    <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+                      {module.description}
+                    </p>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold text-black dark:text-white sm:text-2xl">
-                  {module.title}
-                </h3>
               </div>
               
-              <p className="mb-6 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                {module.description}
-              </p>
-              
-              <ul className="space-y-2">
-                {module.features.map((feature, index) => (
-                  <li key={index} className="flex items-center">
-                    <div className="mr-3 flex h-5 w-5 items-center justify-center rounded-full bg-primary/20">
-                      <span className="text-xs font-bold text-primary">✓</span>
+              {/* Features List */}
+              <div className="px-8 pb-8">
+                <div className="space-y-3">
+                  {module.features.map((feature, index) => (
+                    <div key={index} className="flex items-center space-x-3">
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800">
+                        <svg className="h-3 w-3 text-primary-500" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                        </svg>
+                      </div>
+                      <span className="text-sm font-medium text-slate-700 dark:text-slate-300">
+                        {feature}
+                      </span>
                     </div>
-                    <span className="text-sm text-body-color dark:text-body-color-dark">
-                      {feature}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+                  ))}
+                </div>
+              </div>
+              
+              {/* Subtle gradient overlay on hover */}
+              <div className={`absolute inset-0 bg-gradient-to-br ${module.gradient} opacity-0 group-hover:opacity-[0.02] transition-opacity duration-300`}></div>
             </div>
           ))}
+        </div>
+
+        {/* CTA Section */}
+        <div className="mt-16 text-center">
+          <div className="rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800/50 p-8">
+            <h3 className="mb-4 text-2xl font-bold text-slate-900 dark:text-slate-50">
+              Ready to explore TeraSim?
+            </h3>
+            <p className="mb-6 text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+              Experience the power of generative AI simulation with our live demo or dive deeper into the technical specifications.
+            </p>
+            <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+              <a
+                href="http://3.149.40.164:7860/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-6 py-3 text-base font-semibold text-white transition-all duration-300 hover:bg-primary-700 hover:shadow-glow"
+              >
+                <span className="mr-2">🚀</span>
+                Try Live Demo
+              </a>
+              <a
+                href="/trust"
+                className="inline-flex items-center justify-center rounded-xl border-2 border-slate-300 dark:border-slate-600 bg-transparent px-6 py-3 text-base font-semibold text-slate-700 dark:text-slate-300 transition-all duration-300 hover:bg-slate-100 dark:hover:bg-slate-800"
+              >
+                <span className="mr-2">📄</span>
+                Read the Research
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
