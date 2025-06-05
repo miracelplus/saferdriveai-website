@@ -10,10 +10,10 @@ const Hero = () => {
         {/* Tech grid background */}
         <div className="absolute inset-0 bg-tech-grid bg-tech-grid opacity-20 dark:opacity-10"></div>
         
-        <div className="container relative">
+        <div className="container relative max-w-none px-4">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-5xl text-center">
+              <div className="mx-auto max-w-7xl text-center">
                 <h1 className="mb-6 text-4xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight lg:text-8xl lg:leading-tight">
                   Autonomy is Coming.
                   <span className="block bg-gradient-to-r from-primary-600 to-accent-500 bg-clip-text text-transparent">
@@ -25,28 +25,34 @@ const Hero = () => {
                 </p>
                 
                 {/* Modern scenario visualization */}
-                <div className="mx-auto mb-12 max-w-2xl rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm p-8 shadow-card">
-                  <div className="flex items-center justify-center space-x-6 mb-4">
+                <div className="mx-auto mb-12 max-w-6xl rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm p-8 shadow-card">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-6">
                     <div className="flex flex-col items-center">
-                      <div className="w-16 h-16 rounded-xl bg-blue-500 flex items-center justify-center text-3xl shadow-glow">
-                        🚗
-                      </div>
-                      <span className="text-xs font-medium text-slate-500 dark:text-slate-400 mt-2">AV</span>
+                      <video 
+                        className="w-full h-64 md:h-80 lg:h-96 rounded-xl shadow-lg"
+                        autoPlay 
+                        loop 
+                        muted 
+                        playsInline
+                      >
+                        <source src="/aa_pedestrian.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
                     </div>
                     <div className="flex flex-col items-center">
-                      <div className="w-12 h-12 rounded-xl bg-red-500 flex items-center justify-center text-2xl animate-pulse">
-                        💥
-                      </div>
-                      <span className="text-xs font-medium text-slate-500 dark:text-slate-400 mt-2">COLLISION</span>
-                    </div>
-                    <div className="flex flex-col items-center">
-                      <div className="w-16 h-16 rounded-xl bg-yellow-500 flex items-center justify-center text-3xl">
-                        🚦
-                      </div>
-                      <span className="text-xs font-medium text-slate-500 dark:text-slate-400 mt-2">VIOLATION</span>
+                      <video 
+                        className="w-full h-64 md:h-80 lg:h-96 rounded-xl shadow-lg"
+                        autoPlay 
+                        loop 
+                        muted 
+                        playsInline
+                      >
+                        <source src="/roundabout.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
                     </div>
                   </div>
-                  <p className="text-sm font-medium text-slate-700 dark:text-slate-300 italic">
+                  <p className="text-2xl font-bold text-slate-800 dark:text-slate-100 italic">
                     "This scenario never existed in your training data."
                   </p>
                 </div>
