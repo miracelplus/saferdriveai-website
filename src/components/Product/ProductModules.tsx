@@ -73,7 +73,7 @@ const ProductModules = () => {
         <div className="mx-auto max-w-4xl text-center mb-16">
           <div className="mb-4 inline-flex items-center rounded-full bg-accent-50 dark:bg-accent-900/20 px-4 py-2">
             <span className="mr-2 text-lg">🧩</span>
-            <span className="text-sm font-semibold text-accent-600 dark:text-accent-400">MODULAR ARCHITECTURE</span>
+            <span className="text-2xl font-semibold text-accent-600 dark:text-accent-400">MODULAR ARCHITECTURE</span>
           </div>
           <h2 className="mb-6 text-3xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-4xl lg:text-5xl">
             Powerful
@@ -81,7 +81,7 @@ const ProductModules = () => {
               Building Blocks
             </span>
           </h2>
-          <p className="text-lg leading-relaxed text-slate-600 dark:text-slate-300 font-medium max-w-3xl mx-auto">
+          <p className="text-2xl leading-relaxed text-slate-600 dark:text-slate-300 font-medium max-w-3xl mx-auto">
             Each module is designed to work independently or as part of the complete pipeline. Mix and match components to suit your specific testing needs.
           </p>
         </div>
@@ -102,7 +102,7 @@ const ProductModules = () => {
                     <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 sm:text-2xl mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                       {module.title}
                     </h3>
-                    <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
+                    <p className="text-2xl text-slate-600 dark:text-slate-300 leading-relaxed">
                       {module.description}
                     </p>
                   </div>
@@ -119,7 +119,7 @@ const ProductModules = () => {
                           <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                         </svg>
                       </div>
-                      <span className="text-sm font-medium text-slate-700 dark:text-slate-300">
+                      <span className="text-2xl font-medium text-slate-700 dark:text-slate-300">
                         {feature}
                       </span>
                     </div>
@@ -139,7 +139,7 @@ const ProductModules = () => {
             <h3 className="mb-4 text-2xl font-bold text-slate-900 dark:text-slate-50">
               Ready to explore TeraSim?
             </h3>
-            <p className="mb-6 text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
+            <p className="mb-6 text-2xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
               Experience the power of generative AI simulation with our live demo or dive deeper into the technical specifications.
             </p>
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
@@ -147,14 +147,14 @@ const ProductModules = () => {
                 href="http://3.149.40.164:7860/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-6 py-3 text-base font-semibold text-white transition-all duration-300 hover:bg-primary-700 hover:shadow-glow"
+                className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-6 py-3 text-2xl font-semibold text-white transition-all duration-300 hover:bg-primary-700 hover:shadow-glow"
               >
                 <span className="mr-2">🚀</span>
                 Try Live Demo
               </a>
               <a
                 href="/trust"
-                className="inline-flex items-center justify-center rounded-xl border-2 border-slate-300 dark:border-slate-600 bg-transparent px-6 py-3 text-base font-semibold text-slate-700 dark:text-slate-300 transition-all duration-300 hover:bg-slate-100 dark:hover:bg-slate-800"
+                className="inline-flex items-center justify-center rounded-xl border-2 border-slate-300 dark:border-slate-600 bg-transparent px-6 py-3 text-2xl font-semibold text-slate-700 dark:text-slate-300 transition-all duration-300 hover:bg-slate-100 dark:hover:bg-slate-800"
               >
                 <span className="mr-2">📄</span>
                 Read the Research

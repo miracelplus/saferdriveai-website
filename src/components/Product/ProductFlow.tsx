@@ -14,7 +14,7 @@ const ProductFlow = () => {
         <div className="mx-auto max-w-4xl text-center mb-16">
           <div className="mb-4 inline-flex items-center rounded-full bg-primary-50 dark:bg-primary-900/20 px-4 py-2">
             <span className="mr-2 text-lg">⚡</span>
-            <span className="text-sm font-semibold text-primary-600 dark:text-primary-400">SIMULATION PIPELINE</span>
+            <span className="text-2xl font-semibold text-primary-600 dark:text-primary-400">SIMULATION PIPELINE</span>
           </div>
           <h2 className="mb-6 text-3xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-4xl lg:text-5xl">
             TeraSim
@@ -35,10 +35,10 @@ const ProductFlow = () => {
                 <div className={`mb-3 flex h-16 w-16 items-center justify-center rounded-2xl ${step.color} text-white text-2xl shadow-lg hover:scale-110 transition-transform duration-300`}>
                   {step.icon}
                 </div>
-                <h3 className="text-sm font-bold text-slate-900 dark:text-slate-50 mb-1">
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-1">
                   {step.label}
                 </h3>
-                <p className="text-xs text-slate-600 dark:text-slate-400 text-center max-w-20">
+                <p className="text-2xl text-slate-600 dark:text-slate-400 text-center max-w-20">
                   {step.description}
                 </p>
                 
@@ -61,8 +61,8 @@ const ProductFlow = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-lg font-bold text-slate-900 dark:text-slate-50">User-Friendly</h3>
-            <p className="text-slate-600 dark:text-slate-300">Natural language prompts make complex scenario generation accessible</p>
+            <h3 className="mb-2 text-2xl font-bold text-slate-900 dark:text-slate-50">User-Friendly</h3>
+            <p className="text-2xl text-slate-600 dark:text-slate-300">Natural language prompts make complex scenario generation accessible</p>
           </div>
           
           <div className="text-center">
@@ -73,8 +73,8 @@ const ProductFlow = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-lg font-bold text-slate-900 dark:text-slate-50">Automated</h3>
-            <p className="text-slate-600 dark:text-slate-300">End-to-end automation from scenario generation to safety evaluation</p>
+            <h3 className="mb-2 text-2xl font-bold text-slate-900 dark:text-slate-50">Automated</h3>
+            <p className="text-2xl text-slate-600 dark:text-slate-300">End-to-end automation from scenario generation to safety evaluation</p>
           </div>
           
           <div className="text-center">
@@ -85,8 +85,8 @@ const ProductFlow = () => {
                 </svg>
               </div>
             </div>
-            <h3 className="mb-2 text-lg font-bold text-slate-900 dark:text-slate-50">Validated</h3>
-            <p className="text-slate-600 dark:text-slate-300">Research-backed methodology with proven real-world applicability</p>
+            <h3 className="mb-2 text-2xl font-bold text-slate-900 dark:text-slate-50">Validated</h3>
+            <p className="text-2xl text-slate-600 dark:text-slate-300">Research-backed methodology with proven real-world applicability</p>
           </div>
         </div>
       </div>

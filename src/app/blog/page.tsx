@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog Page | SaferDrive AI",
-  description: "Generative AI powered simulation toolchain for safer Autonomous Vehicles",
+  description: "Stress Testing Physical AI with GenAI",
   // other metadata
 };
 

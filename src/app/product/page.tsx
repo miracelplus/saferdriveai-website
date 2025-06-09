@@ -33,18 +33,18 @@ const ProductPage = () => {
             <div className="mb-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
                 <div className="text-6xl mb-4">🧩</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Modular</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">Mix and match components</p>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Modular</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">Mix and match components</p>
               </div>
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
                 <div className="text-6xl mb-4">⚡</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Scalable</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">From single scenarios to massive fleets</p>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Scalable</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">From single scenarios to massive fleets</p>
               </div>
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
                 <div className="text-6xl mb-4">🎯</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Precise</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">Expose real-world edge cases</p>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Precise</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">Expose real-world edge cases</p>
               </div>
             </div>
           </div>

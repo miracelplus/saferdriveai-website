@@ -62,18 +62,18 @@ const TrustPage = () => {
             <div className="mb-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
                 <div className="text-6xl mb-4">🏛️</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">University of Michigan</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">World-class research institution</p>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">University of Michigan</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">World-class research institution</p>
               </div>
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
-                <div className="text-6xl mb-4">🔬</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Nature Cover</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">Featured research publication</p>
+                <div className="text-6xl mb-4">📖</div>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Published Research</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">Featured research publication</p>
               </div>
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
-                <div className="text-6xl mb-4">🚗</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Leading OEMs</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">Real-world adoption</p>
+                <div className="text-6xl mb-4">🏭</div>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Industry Adoption</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">Real-world adoption</p>
               </div>
             </div>
           </div>
@@ -123,7 +123,7 @@ const TrustPage = () => {
                     href={card.link}
                     target={card.external ? "_blank" : "_self"}
                     rel={card.external ? "noopener noreferrer" : ""}
-                    className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-8 py-4 text-lg font-semibold text-white transition-all duration-300 hover:bg-primary-700 hover:shadow-glow focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-slate-900"
+                    className="inline-flex items-center justify-center rounded-xl bg-primary-600 px-8 py-4 text-2xl font-semibold text-white transition-all duration-300 hover:bg-primary-700 hover:shadow-glow focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 dark:focus:ring-offset-slate-900"
                   >
                     {card.linkText}
                     {card.external && (

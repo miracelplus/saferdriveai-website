@@ -17,7 +17,7 @@ const ContactPage = () => {
         <div className="container relative">
           <div className="mx-auto max-w-6xl text-center">
             {/* Main Hero Section */}
-            <h1 className="mb-8 text-5xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl lg:text-8xl">
+            <h1 className="mb-8 text-5xl font-bold leading-normal text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl lg:text-8xl">
               Let's build the future of
               <span className="block bg-gradient-to-r from-primary-600 to-accent-500 bg-clip-text text-transparent">
                 autonomous safety
@@ -32,18 +32,18 @@ const ContactPage = () => {
             <div className="mb-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
                 <div className="text-6xl mb-4">🚗</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">OEMs & Suppliers</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">Accelerate your AV testing</p>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">OEMs & Suppliers</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">Accelerate your AV testing</p>
               </div>
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
                 <div className="text-6xl mb-4">🏛️</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Regulators</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">Evidence-based safety validation</p>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Regulators</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">Evidence-based safety validation</p>
               </div>
               <div className="text-center p-6 rounded-2xl bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm border border-slate-200 dark:border-slate-700">
                 <div className="text-6xl mb-4">🛡️</div>
-                <h3 className="text-xl font-bold text-slate-900 dark:text-slate-50 mb-2">Insurers</h3>
-                <p className="text-lg text-slate-600 dark:text-slate-300">Risk assessment and pricing</p>
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2">Insurers</h3>
+                <p className="text-2xl text-slate-600 dark:text-slate-300">Risk assessment and pricing</p>
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ const ContactPage = () => {
                   <div className="relative mb-6">
                     <div className="mx-auto w-48 h-48 rounded-2xl bg-gradient-to-br from-primary-100 to-accent-100 dark:from-primary-900/30 dark:to-accent-900/30 border-4 border-white dark:border-slate-800 shadow-card overflow-hidden">
                       <Image 
-                        src="/images/testimonials/author-01.png" 
+                        src="/images/howie_figure.png" 
                         alt="Howie" 
                         width={200} 
                         height={200} 
@@ -130,12 +130,12 @@ const ContactPage = () => {
                     </div>
                   </div>
                   <h3 className="mb-3 text-3xl font-bold text-slate-900 dark:text-slate-50">
-                    Howie Zhao
+                    Howie Sun
                   </h3>
                   <p className="text-xl font-semibold text-primary-600 dark:text-primary-400 mb-4">
                     Founder & CEO
                   </p>
-                  <p className="text-lg text-slate-600 dark:text-slate-300 font-medium mb-6">
+                  <p className="text-2xl text-slate-600 dark:text-slate-300 font-medium mb-6">
                     Researcher passionate about safer autonomy. PhD in autonomous systems from University of Michigan.
                   </p>
                   
