@@ -22,20 +22,18 @@ const ProductModules = () => {
         "Historical traffic patterns",
         "Pedestrian & cyclist simulation",
         "Weather & congestion modeling",
-        "Road closure scenarios"
       ],
       gradient: "from-yellow-500 to-orange-500"
     },
     {
       id: 3,
       icon: "💥",
-      title: "Accident & Adversity Generation",
-      description: "Automatically generate corner-case scenarios like unprotected turns, merges, or red-light violations. Control collision types, severity, and actor responsibility with natural language prompts.",
+      title: "Real-World Challenges Generation",
+      description: "Automatically generate corner-case scenarios like unprotected turns, merges, or red-light violations. Control collision types, severity, and actor responsibility",
       features: [
-        "Corner-case generation",
-        "Natural language prompts",
-        "Collision type control",
-        "Responsibility modeling"
+        "Static (Construction Zones)",
+        "Dynamic (Emergency Vehicles)",
+        "Behavioral (Unprotected Turns)",
       ],
       gradient: "from-red-500 to-pink-500"
     },
@@ -47,7 +45,6 @@ const ProductModules = () => {
       features: [
         "Camera & LiDAR simulation",
         "Realistic lighting & occlusion",
-        "Custom FOV configuration",
         "Multi-sensor support"
       ],
       gradient: "from-purple-500 to-violet-500"
@@ -55,13 +52,12 @@ const ProductModules = () => {
     {
       id: 5,
       icon: "🔄",
-      title: "Behavioral Adversity & Co-simulation API",
+      title: "Unified API for Seamless Integration",
       description: "Inject rare events into naturalistic flows using APIs. Integrate with AV simulators like CARLA, NVIDIA DRIVE Sim.",
       features: [
         "API-driven integration",
         "CARLA & DRIVE Sim support",
         "Closed-loop testing",
-        "Real-time feedback"
       ],
       gradient: "from-blue-500 to-cyan-500"
     }

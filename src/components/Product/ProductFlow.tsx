@@ -1,11 +1,11 @@
 const ProductFlow = () => {
   const steps = [
-    { icon: "💬", label: "Prompt", color: "bg-blue-500", description: "Natural language input" },
-    { icon: "🗺️", label: "Map", color: "bg-green-500", description: "HD scene generation" },
-    { icon: "🚗", label: "Traffic Flow", color: "bg-yellow-500", description: "Realistic behavior" },
-    { icon: "💥", label: "Collision", color: "bg-red-500", description: "Adversarial events" },
-    { icon: "📷", label: "Sensor Sim", color: "bg-purple-500", description: "Photorealistic output" },
-    { icon: "📊", label: "Evaluation", color: "bg-indigo-500", description: "Safety metrics" },
+    { icon: "💬", label: "Prompt", color: "bg-blue-500" },
+    { icon: "🗺️", label: "Map", color: "bg-green-500" },
+    { icon: "🚗", label: "Traffic Flow", color: "bg-yellow-500" },
+    { icon: "💥", label: "Challenge", color: "bg-red-500" },
+    { icon: "📷", label: "Sensor Sim", color: "bg-purple-500" },
+    { icon: "📊", label: "Evaluation", color: "bg-indigo-500" },
   ];
 
   return (
@@ -29,23 +29,15 @@ const ProductFlow = () => {
         
         {/* Pipeline Visualization */}
         <div className="mb-16 overflow-x-auto">
-          <div className="flex min-w-[900px] items-center justify-between rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm p-8 shadow-card">
+          <div className="flex min-w-[1200px] items-start justify-between rounded-2xl border border-slate-200 dark:border-slate-700 bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm p-8 shadow-card">
             {steps.map((step, index) => (
-              <div key={index} className="flex flex-col items-center">
-                <div className={`mb-3 flex h-16 w-16 items-center justify-center rounded-2xl ${step.color} text-white text-2xl shadow-lg hover:scale-110 transition-transform duration-300`}>
+              <div key={index} className="flex flex-col items-center w-32">
+                <div className={`mb-4 flex h-20 w-20 items-center justify-center rounded-2xl ${step.color} text-white text-4xl shadow-lg hover:scale-110 transition-transform duration-300`}>
                   {step.icon}
                 </div>
-                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-1">
+                <h3 className="text-2xl font-bold text-slate-900 dark:text-slate-50 mb-2 text-center leading-tight min-h-[3rem] flex items-center justify-center">
                   {step.label}
                 </h3>
-                <p className="text-2xl text-slate-600 dark:text-slate-400 text-center max-w-20">
-                  {step.description}
-                </p>
-                
-                {/* Connection Line */}
-                {index < steps.length - 1 && (
-                  <div className="absolute left-1/2 top-8 ml-8 h-0.5 w-8 bg-gradient-to-r from-slate-300 to-slate-400 dark:from-slate-600 dark:to-slate-500"></div>
-                )}
               </div>
             ))}
           </div>
