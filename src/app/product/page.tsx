@@ -26,7 +26,7 @@ const ProductPage = () => {
             </h1>
             
             <p className="mb-12 text-2xl leading-relaxed text-slate-700 dark:text-slate-200 font-semibold max-w-5xl mx-auto sm:text-3xl md:text-3xl lg:text-4xl">
-              TeraSim's modular architecture lets you mix and match components to create the perfect testing pipeline for your autonomous systems.
+              TeraSim&apos;s modular architecture lets you mix and match components to create the perfect testing pipeline for your autonomous systems.
             </p>
 
             {/* Key Features */}

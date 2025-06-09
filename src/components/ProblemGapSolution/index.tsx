@@ -21,7 +21,7 @@ const ProblemGapSolution = () => {
                   AVs often fail in rare scenarios that are trivial for human drivers — like a pedestrian running a red light or a vehicle stalling on an on-ramp.
                 </p>
                 <p className="text-2xl leading-relaxed text-slate-600 dark:text-slate-300 font-medium">
-                  These edge cases are precisely what make autonomous driving so challenging, yet they're nearly impossible to predict and prepare for using traditional methods.
+                  These edge cases are precisely what make autonomous driving so challenging, yet they&apos;re nearly impossible to predict and prepare for using traditional methods.
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ const ProblemGapSolution = () => {
                 <h2 className="mb-6 text-3xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-4xl lg:text-5xl">
                   Traditional testing is
                   <span className="block bg-gradient-to-r from-yellow-500 to-orange-500 bg-clip-text text-transparent">
-                    costly, risky, and doesn't scale
+                    costly, risky, and doesn&apos;t scale
                   </span>
                 </h2>
                 <p className="mb-6 text-2xl leading-relaxed text-slate-700 dark:text-slate-200 font-semibold">
@@ -80,7 +80,7 @@ const ProblemGapSolution = () => {
                     Hand-crafted Scenarios
                   </h3>
                   <p className="text-center text-2xl text-slate-600 dark:text-slate-300 font-medium">
-                    Limited, expensive, and can't cover the full range of edge cases
+                    Limited, expensive, and can&apos;t cover the full range of edge cases
                   </p>
                 </div>
               </div>

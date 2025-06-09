@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Open Source & Trust | SaferDrive AI",
-  description: "TeraSim builds upon groundbreaking research from University of Michigan that was featured on Nature's cover. Developed with Mcity and adopted by leading OEMs.",
+  description: "TeraSim builds upon groundbreaking research from University of Michigan that was featured on Nature&apos;s cover. Developed with Mcity and adopted by leading OEMs.",
   keywords: "TeraSim, open source, Nature, Mcity, UMTRI, University of Michigan, AV testing, research",
 };
 
@@ -55,7 +55,7 @@ const TrustPage = () => {
             </h1>
             
             <p className="mb-12 text-2xl leading-relaxed text-slate-700 dark:text-slate-200 font-semibold max-w-5xl mx-auto sm:text-3xl md:text-3xl lg:text-4xl">
-              Featured on Nature's cover. Developed with Mcity and adopted by leading OEMs for real-world AV testing.
+              Featured on Nature&apos;s cover. Developed with Mcity and adopted by leading OEMs for real-world AV testing.
             </p>
 
             {/* Research Highlights */}

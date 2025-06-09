@@ -54,12 +54,12 @@ const Hero = () => {
                   </div>
                   <div className="space-y-3">
                                       <div className="space-y-3">
-                    <p className="text-2xl font-bold text-slate-800 dark:text-slate-100 italic">
-                      "This scenario never existed in your training data."
-                    </p>
+                                      <p className="text-2xl font-bold text-slate-800 dark:text-slate-100 italic">
+                    &ldquo;This scenario never existed in your training data.&rdquo;
+                  </p>
                   </div>
                     <p className="text-2xl font-semibold text-primary-600 dark:text-primary-400">
-                      That's why we built TeraSim — infinite real-world edge cases, fully automated.
+                      That&apos;s why we built TeraSim — infinite real-world edge cases, fully automated.
                     </p>
                   </div>
                 </div>

@@ -18,14 +18,14 @@ const ContactPage = () => {
           <div className="mx-auto max-w-6xl text-center">
             {/* Main Hero Section */}
             <h1 className="mb-8 text-5xl font-bold leading-normal text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl lg:text-8xl">
-              Let's build the future of
+              Let&apos;s build the future of
               <span className="block bg-gradient-to-r from-primary-600 to-accent-500 bg-clip-text text-transparent">
                 autonomous safety
               </span>
             </h1>
             
             <p className="mb-12 text-2xl leading-relaxed text-slate-700 dark:text-slate-200 font-semibold max-w-5xl mx-auto sm:text-3xl md:text-3xl lg:text-4xl">
-              Whether you're building AVs, regulating them, or insuring them — we'd love to talk.
+              Whether you&apos;re building AVs, regulating them, or insuring them — we&apos;d love to talk.
             </p>
 
             {/* Contact Options */}
@@ -67,7 +67,7 @@ const ContactPage = () => {
                   </span>
                 </h2>
                 <p className="mb-8 text-xl leading-relaxed text-slate-700 dark:text-slate-200 font-semibold">
-                  Ready to transform your AV testing? Let's discuss how TeraSim can accelerate your path to market.
+                  Ready to transform your AV testing? Let&apos;s discuss how TeraSim can accelerate your path to market.
                 </p>
                 
                 <form action="https://formspree.io/f/your-form-id" method="POST" className="space-y-6">
