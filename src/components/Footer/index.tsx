@@ -27,7 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Generative AI powered simulation toolchain for safer Autonomous Vehicles.
+                  Stress Testing Physical AI with Generative AI
                 </p>
                 <div className="flex items-center">
                   <a
