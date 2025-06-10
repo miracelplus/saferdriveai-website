@@ -2,15 +2,15 @@ import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
-  <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">
-    <path d="M5.8535 12.6631C5.65824 12.8584 5.34166 12.8584 5.1464 12.6631L0.678505 8.1952C0.483242 7.99994 0.483242 7.68336 0.678505 7.4881L2.32921 5.83739C2.52467 5.64193 2.84166 5.64216 3.03684 5.83791L5.14622 7.95354C5.34147 8.14936 5.65859 8.14952 5.85403 7.95388L13.3797 0.420561C13.575 0.22513 13.8917 0.225051 14.087 0.420383L15.7381 2.07143C15.9333 2.26669 15.9333 2.58327 15.7381 2.77854L5.8535 12.6631Z" />
+  <svg width="12" height="9" viewBox="0 0 12 9" className="fill-current text-slate-600">
+    <path d="M10.28.28a.75.75 0 00-1.06 0L4.25 5.25l-1.47-1.47a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l5.5-5.5A.75.75 0 0010.28.28z" />
   </svg>
 );
 
 const AboutSectionOne = () => {
   const List = ({ text }) => (
-    <p className="mb-5 flex items-center text-lg font-medium text-body-color">
-      <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
+    <p className="mb-5 flex items-center text-base font-medium text-slate-700 dark:text-slate-300">
+      <span className="mr-3 flex h-[20px] w-[20px] items-center justify-center">
         {checkIcon}
       </span>
       {text}
