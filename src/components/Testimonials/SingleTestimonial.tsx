@@ -8,7 +8,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
     <div className="w-full">
       <div className="rounded-lg bg-white p-8 shadow-card duration-300 hover:shadow-card-hover dark:bg-slate-800 lg:px-5 xl:px-8">
         <p className="mb-8 border-b border-slate-200 pb-8 text-base leading-relaxed text-slate-600 dark:border-slate-700 dark:text-slate-300">
-          "{content}"
+          &ldquo;{content}&rdquo;
         </p>
         <div className="flex items-center">
           <div className="relative mr-4 h-[50px] w-full max-w-[50px] overflow-hidden rounded-full">
