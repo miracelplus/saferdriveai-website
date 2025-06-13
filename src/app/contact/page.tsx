@@ -70,7 +70,7 @@ const ContactPage = () => {
                 </span>
               </h2>
               <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
-                Ready to transform your AV testing? Let&apos;s discuss how TeraSim can accelerate your path to market.
+                Ready to transform your AV testing? Let&apos;s talk about how TeraSim accelerates your path to market.
               </p>
             </div>
             
