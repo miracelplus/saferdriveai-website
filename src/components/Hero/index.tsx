@@ -61,7 +61,7 @@ const Hero = () => {
 
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-6 sm:space-y-0">
                   <Link
-                    href="http://3.149.40.164:7860/"
+                    href="https://app.saferdrive.ai/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center rounded-lg bg-slate-900 dark:bg-slate-100 px-8 py-4 text-lg font-medium text-white dark:text-slate-900 transition-all duration-200 hover:bg-slate-800 dark:hover:bg-slate-200"

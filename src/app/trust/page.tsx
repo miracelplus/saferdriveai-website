@@ -29,7 +29,7 @@ const TrustPage = () => {
       id: 3,
       title: "Live Demo",
       description: "Interactive demonstration of TeraSim&apos;s scenario generation capabilities",
-      link: "http://3.149.40.164:7860/",
+      link: "https://app.saferdrive.ai/",
       linkText: "Try Demo",
       external: true
     }
