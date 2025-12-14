@@ -62,7 +62,7 @@ const TrustPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Published Research</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Featured research publication</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Featured research publication</p>
               </div>
               <div className="text-center p-8 border border-slate-200 dark:border-slate-700">
                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
@@ -71,7 +71,7 @@ const TrustPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Industry Adoption</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Real-world adoption</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Real-world adoption</p>
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ const TrustPage = () => {
                   <h3 className="mb-6 text-xl font-semibold text-slate-900 dark:text-slate-50">
                     {card.title}
                   </h3>
-                  <p className="mb-8 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
+                  <p className="mb-8 text-base leading-relaxed text-slate-600 dark:text-slate-400">
                     {card.description}
                   </p>
                 </div>
@@ -131,7 +131,7 @@ const TrustPage = () => {
                     href={card.link}
                     target={card.external ? "_blank" : "_self"}
                     rel={card.external ? "noopener noreferrer" : ""}
-                    className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-slate-900 dark:bg-slate-100 px-6 py-3 text-sm font-medium text-white dark:text-slate-900"
+                    className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-slate-900 dark:bg-slate-100 px-6 py-3 text-base font-medium text-white dark:text-slate-900"
                   >
                     {card.linkText}
                   </Link>

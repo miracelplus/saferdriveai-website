@@ -11,7 +11,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
           href="/blog-details"
           className="relative block aspect-[37/22] w-full"
         >
-          <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold capitalize text-white">
+          <span className="absolute right-6 top-6 z-20 inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-base font-semibold capitalize text-white">
             {tags[0]}
           </span>
           <Image src={image} alt="image" fill />
@@ -36,14 +36,14 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
                 </div>
               </div>
               <div className="w-full">
-                <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
+                <h4 className="mb-1 text-base font-medium text-dark dark:text-white">
                   By {author.name}
                 </h4>
                 <p className="text-xs text-body-color">{author.designation}</p>
               </div>
             </div>
             <div className="inline-block">
-              <h4 className="mb-1 text-sm font-medium text-dark dark:text-white">
+              <h4 className="mb-1 text-base font-medium text-dark dark:text-white">
                 Date
               </h4>
               <p className="text-xs text-body-color">{publishDate}</p>

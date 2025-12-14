@@ -36,7 +36,7 @@ const ProductPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Modular</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Mix and match components</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Mix and match components</p>
               </div>
               <div className="text-center p-8 border border-slate-200 dark:border-slate-700">
                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
@@ -45,7 +45,7 @@ const ProductPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Scalable</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">From single scenarios to massive fleets</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">From single scenarios to massive fleets</p>
               </div>
               <div className="text-center p-8 border border-slate-200 dark:border-slate-700">
                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
@@ -54,7 +54,7 @@ const ProductPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Precise</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Expose real-world edge cases</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Expose real-world edge cases</p>
               </div>
             </div>
           </div>

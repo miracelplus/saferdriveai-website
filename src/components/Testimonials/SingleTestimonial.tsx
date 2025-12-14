@@ -18,7 +18,7 @@ const SingleTestimonial = ({ testimonial }: { testimonial: Testimonial }) => {
             <h3 className="mb-1 text-lg font-semibold text-slate-900 dark:text-slate-100 lg:text-base xl:text-lg">
               {name}
             </h3>
-            <p className="text-sm text-slate-500 dark:text-slate-400">{designation}</p>
+            <p className="text-base text-slate-500 dark:text-slate-400">{designation}</p>
           </div>
         </div>
       </div>

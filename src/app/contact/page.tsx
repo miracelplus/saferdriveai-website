@@ -13,7 +13,7 @@ const ContactPage = () => {
         <div className="container relative">
           <div className="mx-auto max-w-6xl text-center">
             {/* Main Hero Section */}
-            <h1 className="mb-8 text-5xl font-bold leading-normal text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl lg:text-8xl">
+            <h1 className="mb-8 text-4xl font-bold leading-normal text-slate-900 dark:text-slate-50 sm:text-5xl md:text-6xl lg:text-7xl">
               Let&apos;s build the future of
               <span className="block text-slate-600 dark:text-slate-400">
                 autonomous safety
@@ -33,7 +33,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">OEMs & Suppliers</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Accelerate your AV testing</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Accelerate your AV testing</p>
               </div>
               <div className="text-center p-8 border border-slate-200 dark:border-slate-700">
                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
@@ -42,7 +42,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Regulators</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Evidence-based safety validation</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Evidence-based safety validation</p>
               </div>
               <div className="text-center p-8 border border-slate-200 dark:border-slate-700">
                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
@@ -51,7 +51,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Insurers</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Risk assessment and pricing</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Risk assessment and pricing</p>
               </div>
             </div>
           </div>

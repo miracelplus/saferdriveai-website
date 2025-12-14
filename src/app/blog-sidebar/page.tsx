@@ -98,7 +98,7 @@ const BlogSidebarPage = () => {
                   <div className="mb-5">
                     <a
                       href="#0"
-                      className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white"
+                      className="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-base font-semibold text-white"
                     >
                       Design
                     </a>
@@ -320,7 +320,7 @@ const BlogSidebarPage = () => {
                   </p>
                   <div className="items-center justify-between sm:flex">
                     <div className="mb-5">
-                      <h4 className="mb-3 text-sm font-medium text-body-color">
+                      <h4 className="mb-3 text-base font-medium text-body-color">
                         Popular Tags :
                       </h4>
                       <div className="flex items-center">
@@ -330,7 +330,7 @@ const BlogSidebarPage = () => {
                       </div>
                     </div>
                     <div className="mb-5">
-                      <h5 className="mb-3 text-sm font-medium text-body-color sm:text-right">
+                      <h5 className="mb-3 text-base font-medium text-body-color sm:text-right">
                         Share this post :
                       </h5>
                       <div className="flex items-center sm:justify-end">
