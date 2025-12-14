@@ -27,10 +27,10 @@ const TrustPage = () => {
     },
     {
       id: 3,
-      title: "Live Demo",
-      description: "Interactive demonstration of TeraSim&apos;s scenario generation capabilities",
-      link: "https://app.saferdrive.ai/",
-      linkText: "Try Demo",
+      title: "TeraSim Demo",
+      description: "Map Generation, Traffic Agents Modeling, GenAI Sensor Simulation",
+      link: "https://www.youtube.com/watch?v=Fm3d5hAdgQ4",
+      linkText: "Watch TeraSim Demo",
       external: true
     }
   ];

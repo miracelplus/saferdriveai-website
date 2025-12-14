@@ -61,86 +61,27 @@ const ContactPage = () => {
       <section className="py-20 md:py-24 lg:py-32 bg-white dark:bg-slate-900">
         <div className="container">
           <div className="mx-auto max-w-4xl">
-            {/* Contact Form */}
-            <div className="text-center mb-12">
+            <div className="text-center">
               <h2 className="mb-8 text-4xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-5xl lg:text-6xl">
-                Get in 
+                Get in
                 <span className="block text-slate-600 dark:text-slate-400">
                   Touch
                 </span>
               </h2>
-              <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+              <p className="mb-12 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
                 Ready to transform your AV testing? Let&apos;s discuss how TeraSim can accelerate your path to market.
               </p>
-            </div>
-            
-            <form action="https://formspree.io/f/your-form-id" method="POST" className="space-y-6 max-w-2xl mx-auto">
-              <div>
-                <input 
-                  type="text" 
-                  name="name" 
-                  placeholder="Your Name" 
-                  required 
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none" 
-                />
-              </div>
-              <div>
-                <input 
-                  type="email" 
-                  name="email" 
-                  placeholder="Your Email" 
-                  required 
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none" 
-                />
-              </div>
-              <div>
-                <input 
-                  type="text" 
-                  name="company" 
-                  placeholder="Company" 
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none" 
-                />
-              </div>
-              <div>
-                <textarea 
-                  name="message" 
-                  placeholder="Tell us about your AV testing challenges..." 
-                  required 
-                  rows={6}
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none"
-                ></textarea>
-              </div>
-              <button 
-                type="submit" 
-                className="w-full border border-slate-300 dark:border-slate-600 bg-slate-900 dark:bg-slate-100 px-6 py-3 text-sm font-medium text-white dark:text-slate-900"
-              >
-                Send Message
-              </button>
-            </form>
 
-            {/* Team Info */}
-            <div className="text-center mt-16 border-t border-slate-200 dark:border-slate-700 pt-16">
-              <div className="mx-auto max-w-md">
-                <h3 className="mb-3 text-xl font-semibold text-slate-900 dark:text-slate-50">
+              <div className="border border-slate-200 dark:border-slate-700 p-12 max-w-md mx-auto">
+                <h3 className="mb-3 text-2xl font-semibold text-slate-900 dark:text-slate-50">
                   Howie Sun
                 </h3>
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-4">
-                  Founder & CEO
-                </p>
-                <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
-                  Researcher passionate about safer autonomy. PhD in autonomous systems from University of Michigan.
-                </p>
-                
-                <div className="flex justify-center">
-                  <a
-                    href="https://app.saferdrive.ai/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-transparent px-6 py-3 text-sm font-medium text-slate-700 dark:text-slate-300"
-                  >
-                    Try Demo
-                  </a>
-                </div>
+                <a
+                  href="mailto:howie@saferdrive.ai"
+                  className="text-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-50 transition-colors"
+                >
+                  howie@saferdrive.ai
+                </a>
               </div>
             </div>
           </div>

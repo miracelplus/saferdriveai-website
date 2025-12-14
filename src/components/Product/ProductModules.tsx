@@ -173,12 +173,12 @@ const ProductModules = () => {
             </p>
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <a
-                href="https://app.saferdrive.ai/"
+                href="https://www.youtube.com/watch?v=Fm3d5hAdgQ4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-slate-900 dark:bg-slate-100 px-6 py-3 text-sm font-medium text-white dark:text-slate-900"
               >
-                Try Live Demo
+                TeraSim Demo
               </a>
               <a
                 href="/trust"
