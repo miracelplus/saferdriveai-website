@@ -121,16 +121,6 @@ const ContactPage = () => {
             {/* Team Info */}
             <div className="text-center mt-16 border-t border-slate-200 dark:border-slate-700 pt-16">
               <div className="mx-auto max-w-md">
-                <h3 className="mb-3 text-xl font-semibold text-slate-900 dark:text-slate-50">
-                  Howie Sun
-                </h3>
-                <p className="text-sm font-medium text-slate-600 dark:text-slate-400 mb-4">
-                  Founder & CEO
-                </p>
-                <p className="text-sm text-slate-600 dark:text-slate-400 mb-6">
-                  Researcher passionate about safer autonomy. PhD in autonomous systems from University of Michigan.
-                </p>
-                
                 <div className="flex justify-center">
                   <a
                     href="http://3.149.40.164:7860/"
