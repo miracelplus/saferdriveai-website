@@ -12,10 +12,10 @@ const ProblemGapSolution = () => {
               </span>
             </h2>
             <p className="mb-6 text-xl leading-relaxed text-slate-700 dark:text-slate-200 font-medium">
-              AVs often fail in rare scenarios that are trivial for human drivers — like a pedestrian running a red light or a vehicle stalling on an on-ramp.
+              AVs often fail in rare situations humans handle easily — a pedestrian running a red light or a stalled car on the ramp.
             </p>
             <p className="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-              These edge cases are precisely what make autonomous driving so challenging, yet they&apos;re nearly impossible to predict and prepare for using traditional methods.
+              These edge cases make autonomy challenging and are nearly impossible to predict with traditional methods.
             </p>
           </div>
         </div>
@@ -30,10 +30,10 @@ const ProblemGapSolution = () => {
               </span>
             </h2>
             <p className="mb-6 text-xl leading-relaxed text-slate-700 dark:text-slate-200 font-medium">
-              Real-world testing is expensive and dangerous. Simulations rely heavily on hand-crafted scenarios, making them hard to scale and insufficient for uncovering unknown risks.
+              Real-world testing is costly and risky. Hand-crafted simulations don&apos;t scale and miss unknown risks.
             </p>
             <p className="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-              Current approaches cannot systematically discover the scenarios that matter most for safety validation.
+              Current approaches can&apos;t systematically discover the scenarios that matter most.
             </p>
           </div>
         </div>
@@ -48,10 +48,10 @@ const ProblemGapSolution = () => {
               </span>
             </h2>
             <p className="mb-6 text-xl leading-relaxed text-slate-700 dark:text-slate-200 font-medium">
-              At SaferDrive AI, we built TeraSim — a generative AI simulation platform that is <strong className="text-slate-900 dark:text-slate-50">realistic</strong>, <strong className="text-slate-900 dark:text-slate-50">automated</strong>, and <strong className="text-slate-900 dark:text-slate-50">scalable</strong>.
+              We built TeraSim — a generative AI simulation platform that&apos;s <strong className="text-slate-900 dark:text-slate-50">realistic</strong>, <strong className="text-slate-900 dark:text-slate-50">automated</strong> and <strong className="text-slate-900 dark:text-slate-50">scalable</strong>.
             </p>
             <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-              TeraSim systematically uncovers unknown unsafe events, simulates rare interactions, and generates sensor-level outputs — all from a natural language prompt.
+              It uncovers unknown unsafe events, simulates rare interactions and outputs sensor data from a simple text prompt.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <div className="flex items-center space-x-2 rounded-lg bg-slate-50 dark:bg-slate-800 px-4 py-3">

@@ -7,17 +7,18 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden bg-white dark:bg-slate-900 pb-16 pt-[120px] md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-        {/* Subtle grid background */}
+        {/* Subtle grid background with a light gradient for a tech feel */}
         <div className="absolute inset-0 bg-tech-grid bg-tech-grid opacity-30 dark:opacity-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-600/10 to-transparent"></div>
         
         <div className="container relative max-w-none px-4">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-7xl text-center">
-                <h1 className="mb-6 text-4xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-5xl sm:leading-tight md:text-6xl md:leading-tight lg:text-8xl lg:leading-tight">
-                  Autonomy is Coming.
-                  <span className="block text-slate-700 dark:text-slate-300">
-                    But Are We Testing It Right?
+                <h1 className="mb-8 text-5xl font-extrabold tracking-tight text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl lg:text-8xl">
+                  Autonomy is Coming
+                  <span className="block text-primary-600 dark:text-primary-300">
+                    Are We Testing It Right?
                   </span>
                 </h1>
                 
@@ -51,10 +52,10 @@ const Hero = () => {
                   </div>
                   <div className="space-y-3">
                     <p className="text-2xl font-bold text-slate-800 dark:text-slate-100 italic">
-                      &ldquo;This scenario never existed in your training data.&rdquo;
+                      &ldquo;Never seen in your training data.&rdquo;
                     </p>
                     <p className="text-2xl font-semibold text-slate-700 dark:text-slate-300">
-                      That&apos;s why we built TeraSim — infinite real-world edge cases, fully automated.
+                      TeraSim uncovers endless real-world edge cases automatically.
                     </p>
                   </div>
                 </div>

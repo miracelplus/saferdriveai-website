@@ -68,20 +68,23 @@ const ContactPage = () => {
                   Touch
                 </span>
               </h2>
-              <p className="mb-12 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
-                Ready to transform your AV testing? Let&apos;s discuss how TeraSim can accelerate your path to market.
+              <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                Ready to transform your AV testing? Let&apos;s talk about how TeraSim accelerates your path to market.
               </p>
 
-              <div className="border border-slate-200 dark:border-slate-700 p-12 max-w-md mx-auto">
-                <h3 className="mb-3 text-2xl font-semibold text-slate-900 dark:text-slate-50">
-                  Howie Sun
-                </h3>
-                <a
-                  href="mailto:howie@saferdrive.ai"
-                  className="text-lg text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-50 transition-colors"
-                >
-                  howie@saferdrive.ai
-                </a>
+            {/* Team Info */}
+            <div className="text-center mt-16 border-t border-slate-200 dark:border-slate-700 pt-16">
+              <div className="mx-auto max-w-md">
+                <div className="flex justify-center">
+                  <a
+                    href="http://3.149.40.164:7860/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-transparent px-6 py-3 text-sm font-medium text-slate-700 dark:text-slate-300"
+                  >
+                    Try Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
