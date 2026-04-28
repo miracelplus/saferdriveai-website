@@ -71,6 +71,7 @@ const ContactPage = () => {
               <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
                 Ready to transform your AV testing? Let&apos;s talk about how TeraSim accelerates your path to market.
               </p>
+            </div>
 
             {/* Team Info */}
             <div className="text-center mt-16 border-t border-slate-200 dark:border-slate-700 pt-16">
