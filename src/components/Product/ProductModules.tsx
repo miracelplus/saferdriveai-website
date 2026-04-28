@@ -107,7 +107,7 @@ const ProductModules = () => {
       <div className="container">
         <div className="mx-auto max-w-4xl text-center mb-16">
           <div className="mb-4 inline-flex items-center border border-slate-200 dark:border-slate-700 px-4 py-2">
-            <span className="text-sm font-medium text-slate-600 dark:text-slate-400">MODULAR ARCHITECTURE</span>
+            <span className="text-base font-medium text-slate-600 dark:text-slate-400">MODULAR ARCHITECTURE</span>
           </div>
           <h2 className="mb-6 text-3xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-4xl lg:text-5xl">
             Powerful
@@ -136,7 +136,7 @@ const ProductModules = () => {
                     <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-3">
                       {module.title}
                     </h3>
-                    <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                    <p className="text-base text-slate-600 dark:text-slate-400 leading-relaxed">
                       {module.description}
                     </p>
                   </div>
@@ -151,7 +151,7 @@ const ProductModules = () => {
                       <div className="flex h-4 w-4 items-center justify-center">
                         <div className="h-1 w-1 bg-slate-400 dark:bg-slate-500 rounded-full"></div>
                       </div>
-                      <span className="text-sm text-slate-700 dark:text-slate-300">
+                      <span className="text-base text-slate-700 dark:text-slate-300">
                         {feature}
                       </span>
                     </div>
@@ -168,21 +168,21 @@ const ProductModules = () => {
             <h3 className="mb-4 text-xl font-semibold text-slate-900 dark:text-slate-50">
               Ready to explore TeraSim?
             </h3>
-            <p className="mb-6 text-sm text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
+            <p className="mb-6 text-base text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
               Experience the power of generative AI simulation with our live demo or dive deeper into the technical specifications.
             </p>
             <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
               <a
-                href="http://3.149.40.164:7860/"
+                href="https://www.youtube.com/watch?v=Fm3d5hAdgQ4"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-slate-900 dark:bg-slate-100 px-6 py-3 text-sm font-medium text-white dark:text-slate-900"
+                className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-slate-900 dark:bg-slate-100 px-6 py-3 text-base font-medium text-white dark:text-slate-900"
               >
-                Try Live Demo
+                TeraSim Demo
               </a>
               <a
                 href="/trust"
-                className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-transparent px-6 py-3 text-sm font-medium text-slate-700 dark:text-slate-300"
+                className="inline-flex items-center justify-center border border-slate-300 dark:border-slate-600 bg-transparent px-6 py-3 text-base font-medium text-slate-700 dark:text-slate-300"
               >
                 Read the Research
               </a>

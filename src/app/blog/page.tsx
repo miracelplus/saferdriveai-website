@@ -37,7 +37,7 @@ const Blog = () => {
                 <li className="mx-1">
                   <a
                     href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-base text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     Prev
                   </a>
@@ -45,7 +45,7 @@ const Blog = () => {
                 <li className="mx-1">
                   <a
                     href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-base text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     1
                   </a>
@@ -53,7 +53,7 @@ const Blog = () => {
                 <li className="mx-1">
                   <a
                     href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-base text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     2
                   </a>
@@ -61,20 +61,20 @@ const Blog = () => {
                 <li className="mx-1">
                   <a
                     href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-base text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     3
                   </a>
                 </li>
                 <li className="mx-1">
-                  <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color">
+                  <span className="flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-base text-body-color">
                     ...
                   </span>
                 </li>
                 <li className="mx-1">
                   <a
                     href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-base text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     12
                   </a>
@@ -82,7 +82,7 @@ const Blog = () => {
                 <li className="mx-1">
                   <a
                     href="#0"
-                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-sm text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
+                    className="flex h-9 min-w-[36px] items-center justify-center rounded-md bg-body-color bg-opacity-[15%] px-4 text-base text-body-color transition hover:bg-primary hover:bg-opacity-100 hover:text-white"
                   >
                     Next
                   </a>

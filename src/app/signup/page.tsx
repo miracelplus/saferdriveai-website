@@ -84,7 +84,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="name"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-base text-dark dark:text-white"
                     >
                       {" "}
                       Full Name{" "}
@@ -99,7 +99,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="email"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-base text-dark dark:text-white"
                     >
                       {" "}
                       Work Email{" "}
@@ -114,7 +114,7 @@ const SignupPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="password"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-base text-dark dark:text-white"
                     >
                       {" "}
                       Your Password{" "}
@@ -129,7 +129,7 @@ const SignupPage = () => {
                   <div className="mb-8 flex">
                     <label
                       htmlFor="checkboxLabel"
-                      className="flex cursor-pointer select-none text-sm font-medium text-body-color"
+                      className="flex cursor-pointer select-none text-base font-medium text-body-color"
                     >
                       <div className="relative">
                         <input

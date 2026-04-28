@@ -84,7 +84,7 @@ const SigninPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="email"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-base text-dark dark:text-white"
                     >
                       Your Email
                     </label>
@@ -98,7 +98,7 @@ const SigninPage = () => {
                   <div className="mb-8">
                     <label
                       htmlFor="password"
-                      className="mb-3 block text-sm text-dark dark:text-white"
+                      className="mb-3 block text-base text-dark dark:text-white"
                     >
                       Your Password
                     </label>
@@ -113,7 +113,7 @@ const SigninPage = () => {
                     <div className="mb-4 sm:mb-0">
                       <label
                         htmlFor="checkboxLabel"
-                        className="flex cursor-pointer select-none items-center text-sm font-medium text-body-color"
+                        className="flex cursor-pointer select-none items-center text-base font-medium text-body-color"
                       >
                         <div className="relative">
                           <input
@@ -146,7 +146,7 @@ const SigninPage = () => {
                     <div>
                       <a
                         href="#0"
-                        className="text-sm font-medium text-primary hover:underline"
+                        className="text-base font-medium text-primary hover:underline"
                       >
                         Forgot Password?
                       </a>

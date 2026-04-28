@@ -13,7 +13,7 @@ const ContactPage = () => {
         <div className="container relative">
           <div className="mx-auto max-w-6xl text-center">
             {/* Main Hero Section */}
-            <h1 className="mb-8 text-5xl font-bold leading-normal text-slate-900 dark:text-slate-50 sm:text-6xl md:text-7xl lg:text-8xl">
+            <h1 className="mb-8 text-4xl font-bold leading-normal text-slate-900 dark:text-slate-50 sm:text-5xl md:text-6xl lg:text-7xl">
               Let&apos;s build the future of
               <span className="block text-slate-600 dark:text-slate-400">
                 autonomous safety
@@ -33,7 +33,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">OEMs & Suppliers</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Accelerate your AV testing</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Accelerate your AV testing</p>
               </div>
               <div className="text-center p-8 border border-slate-200 dark:border-slate-700">
                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
@@ -42,7 +42,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Regulators</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Evidence-based safety validation</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Evidence-based safety validation</p>
               </div>
               <div className="text-center p-8 border border-slate-200 dark:border-slate-700">
                 <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
@@ -51,7 +51,7 @@ const ContactPage = () => {
                   </svg>
                 </div>
                 <h3 className="text-lg font-semibold text-slate-900 dark:text-slate-50 mb-2">Insurers</h3>
-                <p className="text-sm text-slate-600 dark:text-slate-400">Risk assessment and pricing</p>
+                <p className="text-base text-slate-600 dark:text-slate-400">Risk assessment and pricing</p>
               </div>
             </div>
           </div>
@@ -61,10 +61,9 @@ const ContactPage = () => {
       <section className="py-20 md:py-24 lg:py-32 bg-white dark:bg-slate-900">
         <div className="container">
           <div className="mx-auto max-w-4xl">
-            {/* Contact Form */}
-            <div className="text-center mb-12">
+            <div className="text-center">
               <h2 className="mb-8 text-4xl font-bold leading-tight text-slate-900 dark:text-slate-50 sm:text-5xl lg:text-6xl">
-                Get in 
+                Get in
                 <span className="block text-slate-600 dark:text-slate-400">
                   Touch
                 </span>
@@ -72,51 +71,6 @@ const ContactPage = () => {
               <p className="mb-8 text-lg leading-relaxed text-slate-600 dark:text-slate-400">
                 Ready to transform your AV testing? Let&apos;s talk about how TeraSim accelerates your path to market.
               </p>
-            </div>
-            
-            <form action="https://formspree.io/f/your-form-id" method="POST" className="space-y-6 max-w-2xl mx-auto">
-              <div>
-                <input 
-                  type="text" 
-                  name="name" 
-                  placeholder="Your Name" 
-                  required 
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none" 
-                />
-              </div>
-              <div>
-                <input 
-                  type="email" 
-                  name="email" 
-                  placeholder="Your Email" 
-                  required 
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none" 
-                />
-              </div>
-              <div>
-                <input 
-                  type="text" 
-                  name="company" 
-                  placeholder="Company" 
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none" 
-                />
-              </div>
-              <div>
-                <textarea 
-                  name="message" 
-                  placeholder="Tell us about your AV testing challenges..." 
-                  required 
-                  rows={6}
-                  className="w-full border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 px-4 py-3 text-sm text-slate-900 dark:text-slate-100 placeholder-slate-500 dark:placeholder-slate-400 focus:border-slate-400 focus:outline-none"
-                ></textarea>
-              </div>
-              <button 
-                type="submit" 
-                className="w-full border border-slate-300 dark:border-slate-600 bg-slate-900 dark:bg-slate-100 px-6 py-3 text-sm font-medium text-white dark:text-slate-900"
-              >
-                Send Message
-              </button>
-            </form>
 
             {/* Team Info */}
             <div className="text-center mt-16 border-t border-slate-200 dark:border-slate-700 pt-16">
