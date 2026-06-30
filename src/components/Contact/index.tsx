@@ -11,14 +11,11 @@ const Contact = () => {
           </p>
           <div className="rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 p-8">
             <div className="flex flex-col items-center space-y-4">
-              <div className="text-xl font-semibold text-slate-900 dark:text-slate-50">
-                Howie Sun
-              </div>
               <a
-                href="mailto:howie@saferdrive.ai"
+                href="mailto:contact@saferdrive.ai"
                 className="text-lg text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-slate-50 transition-colors"
               >
-                howie@saferdrive.ai
+                contact@saferdrive.ai
               </a>
             </div>
           </div>
